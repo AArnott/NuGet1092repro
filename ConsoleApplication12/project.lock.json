@@ -1,0 +1,80 @@
+{
+  "locked": false,
+  "version": 1,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.VisualStudio.Threading/14.0.50702": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Validation": "[14.0.50702, )"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Threading.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Validation/14.0.50702": {
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Validation.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6/win-anycpu": {
+      "Microsoft.VisualStudio.Threading/14.0.50702": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Validation": "[14.0.50702, )"
+        },
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Threading.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Validation/14.0.50702": {
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.Validation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.VisualStudio.Threading/14.0.50702": {
+      "sha512": "dHdvEGfDv5PbGsCbtBtPkCsXkmPJcJTmnQ3m9V4JxqBCMJWO8N4Dyut4ssw46KKr8MS64RWiJSslPhDLiSfQDA==",
+      "type": "Package",
+      "files": [
+        "_rels/.rels",
+        "Microsoft.VisualStudio.Threading.nuspec",
+        "lib/net45/Microsoft.VisualStudio.Threading.dll",
+        "lib/net45/Microsoft.VisualStudio.Threading.xml",
+        "package/services/metadata/core-properties/77685921fcf14c9593f228a4558113ac.psmdcp",
+        "[Content_Types].xml"
+      ]
+    },
+    "Microsoft.VisualStudio.Validation/14.0.50702": {
+      "sha512": "+fqBUMqpfk8b1BwegIalBHoNzfnJUWFI/qrOGD6xEfhEH+732zZGlzO3Kuci+wiVX1NCD6HW5jZDEePVejGHcg==",
+      "type": "Package",
+      "files": [
+        "_rels/.rels",
+        "Microsoft.VisualStudio.Validation.nuspec",
+        "lib/net45/Microsoft.VisualStudio.Validation.dll",
+        "lib/net45/Microsoft.VisualStudio.Validation.xml",
+        "package/services/metadata/core-properties/bc0320ca467749b1ac7a79765ec3e8cb.psmdcp",
+        "[Content_Types].xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.VisualStudio.Threading >= *"
+    ],
+    ".NETFramework,Version=v4.6": []
+  }
+}

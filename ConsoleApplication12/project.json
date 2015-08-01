@@ -1,0 +1,12 @@
+﻿{
+  "dependencies": {
+    //"Microsoft.VisualStudio.Validation": "14.0.50702",
+    "Microsoft.VisualStudio.Threading": "*"
+  },
+  "frameworks": {
+    "net46": {}
+  },
+  "runtimes": {
+    "win-anycpu": {}
+  }
+}
